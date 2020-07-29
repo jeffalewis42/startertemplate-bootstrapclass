@@ -8,6 +8,7 @@ body.signin-body {
 }
 
 .card.signin-card {
+    /*    max-height: 525px;*/
     padding: 40px 0px 20px;
     background-color: #f4f4f4f4;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
@@ -28,4 +29,23 @@ form.signin-form {
     max-width: 350px;
     margin: auto;
 
+}
+
+button.signin-button {
+    color: #fff;
+    background-color: #D8471E;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.signin-checkbox {
+    /*    margin-bottom: 0;*/
+}
+
+.NewAccount {
+    display: block;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-align: center;
 }
