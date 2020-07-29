@@ -4,13 +4,28 @@ body.signin-body {
 
 .signin-container {
     margin-top: 8%;
-    
+
 }
 
 .card.signin-card {
     padding: 40px 0px 20px;
     background-color: #f4f4f4f4;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.50);
-    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.50);
-    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,.50);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
+}
+
+img.signin-img {
+    /*    max-width: 60%;*/
+    width: 70%;
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+
+}
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+
 }
